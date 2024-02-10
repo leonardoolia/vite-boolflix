@@ -3,6 +3,7 @@ import AppHeader from './AppHeader.vue';
 import AppMain from './AppMain.vue';
 import { store } from './assets/data/store';
 import { api } from './assets/data/index';
+import axios from 'axios';
 export default {
   name: 'Boolflix',
   components: { AppHeader, AppMain }
